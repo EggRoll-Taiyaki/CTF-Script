@@ -36,4 +36,18 @@ Unsolved: None
 | HyperSphere	| 12 / 489	| SO4, DLP, Smoothness |
 | Catino	| 9 / 495	| PRNG, LLL	|
 
+### UIUCTF
+
+Rank: 4
+First Blood: None
+Unsolved: None
+
+| Challenge     	| Statistic     | Keyword       |
+| --------------------- | ------------- | ------------- |
+| asr			| 56 / 85	| RSA		|
+| Wringing Rings	| 44 / 139	| CRT, Lagrange	|
+| Elliptic Clock Crypto | 27 / 281	| DLP		|
+| mom can we have AES 	| 22 / 332 	| Padding Oracle  |
+| That-crete Log 	| 21 / 342 	| DLP, Smoothness |
+| Bro-key-n 		| 14 / 408 	| RSA, PEM 	|
 

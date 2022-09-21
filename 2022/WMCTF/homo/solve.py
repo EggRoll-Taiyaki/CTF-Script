@@ -1,0 +1,9 @@
+from cipher import ct
+from Crypto.Util.number import * 
+
+approx_sk = 41565572874253689464437825525802665878958533473562648432875965578230785556539072257838190060392315994424904212374664222250474284551548379928097126854746229
+
+bits = [(c % approx_sk) % 2 for c in ct]
+FLAG = long_to_bytes(int("".join([str(b) for b in bits]), 2))
+print(FLAG)
+
